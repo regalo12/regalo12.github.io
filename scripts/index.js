@@ -459,7 +459,7 @@ x = setInterval(function() {
 
     // Esperar 20 segundos antes de redirigir
     setTimeout(() => {
-        window.location.href = "http://127.0.0.1:5501/index2.html";
+        window.location.href = "index2.html";
     }, 20000); // 20,000 milisegundos = 20 segundos
 
     let merrywrap = document.getElementById('merrywrap');
